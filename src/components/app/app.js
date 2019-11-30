@@ -4,10 +4,10 @@ import AppHeader from '../app-header';
 import {Switch,Route} from 'react-router-dom';
 import Background from './food-bg.jpg';
 
-const App = () => {
+const App = ({total}) => {
     return (
         <div style={{background: `url(${Background}) center center/cover no-repeat`}} className="app">
-            <AppHeader total={50}/>
+            <AppHeader />
             <Switch>
                 <Route path="/" exact component={MainPage}/>
                 <Route path="/cart" component={CartPage}/>
