@@ -10,8 +10,8 @@ import store from './store';
 
 import './index.scss';
 
-const restoService = new RestoService;
-console.log(restoService.getMenuItems());
+const restoService = new RestoService();
+
 ReactDOM.render(
     <Provider store={store}>
         <ErrorBoundry>

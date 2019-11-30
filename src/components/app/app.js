@@ -3,7 +3,6 @@ import {MainPage, CartPage} from '../pages';
 import AppHeader from '../app-header';
 import {Switch,Route} from 'react-router-dom';
 import Background from './food-bg.jpg';
-import RestoServiceContext from '../resto-service-context';
 
 const App = () => {
     return (
